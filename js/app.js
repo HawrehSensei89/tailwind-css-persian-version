@@ -50,7 +50,7 @@
           '</td><td class="code-ltr px-4 py-2.5 font-mono text-[0.8rem]">' + esc(r[1]) + '</td></tr>'
       }).join('')
       return '<div class="my-6 overflow-auto rounded-xl ring-1 ring-slate-200 dark:ring-slate-800"><table class="w-full text-start">' +
-        '<thead class="bg-slate-50 text-xs dark:bg-slate-900"><tr><th class="px-4 py-2 text-start font-semibold">کلاس</th><th class="px-4 py-2 text-start font-semibold">استایل</th></tr></thead>' +
+        '<thead class="bg-slate-50 text-xs dark:bg-slate-900"><tr><th class="px-4 py-2 text-start font-semibold">' + esc((b.heads || ['کلاس', 'استایل'])[0]) + '</th><th class="px-4 py-2 text-start font-semibold">' + esc((b.heads || ['کلاس', 'استایل'])[1]) + '</th></tr></thead>' +
         '<tbody>' + rows + '</tbody></table></div>'
     }
     if (b.t === 'demo') {
