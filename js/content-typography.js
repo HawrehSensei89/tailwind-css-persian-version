@@ -380,7 +380,7 @@ C['word-break'] = simple('word-break', 'کلاس‌هایی برای تعیین 
 ], [
   { t: 'h2', text: 'مثال' },
   { t: 'p', text: '`break-all` کلمه را در هر جایی که لازم باشد می‌شکند (مناسب رشته‌های بلند مثل URL). `break-keep` برای زبان‌های CJK است و شکستن کلمه را ممنوع می‌کند.' },
-  demo('<p class="w-48 break-all rounded border border-slate-300 p-2 text-sm">The longest word is Supercalifragilisticexpialidocious.</p>', '<p class="break-all ...">The longest word in any of the major...</p>'),
+  demo('<p class="w-48 break-all rounded-sm border border-slate-300 p-2 text-sm">The longest word is Supercalifragilisticexpialidocious.</p>', '<p class="break-all ...">The longest word in any of the major...</p>'),
 ], 'break-all')
 
 C['overflow-wrap'] = simple('overflow-wrap', 'کلاس‌هایی برای کنترل اینکه کلمه‌ی بلندی که در کادر جا نمی‌شود چطور بشکند.', [

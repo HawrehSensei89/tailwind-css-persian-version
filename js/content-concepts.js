@@ -470,7 +470,7 @@ C['colors'] = {
   blocks: [
     { t: 'h2', text: 'پالت پیش‌فرض' },
     { t: 'p', text: 'Tailwind یک پالت رنگ آماده و حرفه‌ای دارد. هر رنگ چند پله از روشن تا تیره دارد، از `50` (خیلی روشن) تا `950` (خیلی تیره). نام رنگ‌ها: red، orange، amber، yellow، lime، green، emerald، teal، cyan، sky، blue، indigo، violet، purple، fuchsia، pink، rose، و خاکستری‌های slate، gray، zinc، neutral و stone.' },
-    { t: 'demo', html: '<div class="grid grid-cols-6 gap-1 text-center text-xs sm:grid-cols-11"><div class="rounded bg-sky-50 py-3 text-sky-900">50</div><div class="rounded bg-sky-100 py-3 text-sky-900">100</div><div class="rounded bg-sky-200 py-3 text-sky-900">200</div><div class="rounded bg-sky-300 py-3 text-sky-900">300</div><div class="rounded bg-sky-400 py-3 text-sky-950">400</div><div class="rounded bg-sky-500 py-3 text-white">500</div><div class="rounded bg-sky-600 py-3 text-white">600</div><div class="rounded bg-sky-700 py-3 text-white">700</div><div class="rounded bg-sky-800 py-3 text-white">800</div><div class="rounded bg-sky-900 py-3 text-white">900</div><div class="rounded bg-sky-950 py-3 text-white">950</div></div>',
+    { t: 'demo', html: '<div class="grid grid-cols-6 gap-1 text-center text-xs sm:grid-cols-11"><div class="rounded-sm bg-sky-50 py-3 text-sky-900">50</div><div class="rounded-sm bg-sky-100 py-3 text-sky-900">100</div><div class="rounded-sm bg-sky-200 py-3 text-sky-900">200</div><div class="rounded-sm bg-sky-300 py-3 text-sky-900">300</div><div class="rounded-sm bg-sky-400 py-3 text-sky-950">400</div><div class="rounded-sm bg-sky-500 py-3 text-white">500</div><div class="rounded-sm bg-sky-600 py-3 text-white">600</div><div class="rounded-sm bg-sky-700 py-3 text-white">700</div><div class="rounded-sm bg-sky-800 py-3 text-white">800</div><div class="rounded-sm bg-sky-900 py-3 text-white">900</div><div class="rounded-sm bg-sky-950 py-3 text-white">950</div></div>',
       code: '<div class="bg-sky-50 ... bg-sky-500 ... bg-sky-950"></div>' },
     { t: 'p', text: 'علاوه بر این‌ها، `black`، `white`، `transparent`، `inherit` و `current` (برابر رنگ متن فعلی) هم موجودند. رنگ‌های پیش‌فرض با فضای رنگی **OKLCH** تعریف شده‌اند که روی نمایشگرهای مدرن رنگ‌های زنده‌تری می‌دهد.' },
 
@@ -486,7 +486,7 @@ C['colors'] = {
 
     { t: 'h2', text: 'تنظیم شفافیت' },
     { t: 'p', text: 'برای تغییر شفافیت یک رنگ، یک `/` و عدد درصد بعد از آن بنویس:' },
-    { t: 'demo', html: '<div class="flex gap-2"><div class="h-10 w-20 rounded bg-sky-500/100"></div><div class="h-10 w-20 rounded bg-sky-500/75"></div><div class="h-10 w-20 rounded bg-sky-500/50"></div><div class="h-10 w-20 rounded bg-sky-500/25"></div></div>',
+    { t: 'demo', html: '<div class="flex gap-2"><div class="h-10 w-20 rounded-sm bg-sky-500/100"></div><div class="h-10 w-20 rounded-sm bg-sky-500/75"></div><div class="h-10 w-20 rounded-sm bg-sky-500/50"></div><div class="h-10 w-20 rounded-sm bg-sky-500/25"></div></div>',
       code: '<div class="bg-sky-500/100"></div>\n<div class="bg-sky-500/75"></div>\n<div class="bg-sky-500/50"></div>\n<div class="bg-sky-500/25"></div>' },
     { t: 'p', text: 'برای مقدار دلخواه یا متغیر CSS:' },
     { t: 'code', text: '<div class="bg-sky-500/[71.37%]"></div>\n<div class="bg-sky-500/(--my-alpha-value)"></div>', file: 'HTML' },

@@ -93,7 +93,7 @@ C['height'] = {
   blocks: [
     tbl(sizeRows('h', 'height', { vert: true, none: 'auto' }).concat([['size-<number>', 'width و height: calc(var(--spacing) * <number>);']])),
     { t: 'h2', text: 'مثال‌ها' },
-    demo('<div class="flex items-end gap-2"><div class="h-8 w-12 rounded bg-sky-500"></div><div class="h-16 w-12 rounded bg-sky-500"></div><div class="h-24 w-12 rounded bg-sky-500"></div></div>', '<div class="h-96 ...">h-96</div>\n<div class="h-80 ...">h-80</div>\n<div class="h-64 ...">h-64</div>'),
+    demo('<div class="flex items-end gap-2"><div class="h-8 w-12 rounded-sm bg-sky-500"></div><div class="h-16 w-12 rounded-sm bg-sky-500"></div><div class="h-24 w-12 rounded-sm bg-sky-500"></div></div>', '<div class="h-96 ...">h-96</div>\n<div class="h-80 ...">h-80</div>\n<div class="h-64 ...">h-64</div>'),
     { t: 'h3', text: 'ارتفاع صفحه‌ی نمایش' },
     { t: 'p', text: '`h-screen` برابر ۱۰۰٪ ارتفاع پنجره است. روی موبایل بهتر است از `h-dvh` استفاده کنی چون با جمع و باز شدن نوار آدرس مرورگر هماهنگ می‌شود.' },
     { t: 'h3', text: 'ارتفاع خط' },

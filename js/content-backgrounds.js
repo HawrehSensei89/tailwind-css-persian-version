@@ -64,7 +64,7 @@ C['background-color'] = {
     { t: 'h2', text: 'مثال‌ها' },
     demo('<div class="flex gap-2"><button class="rounded-md bg-sky-500 px-4 py-2 text-sm text-white">Button A</button><button class="rounded-md bg-indigo-500 px-4 py-2 text-sm text-white">Button B</button><button class="rounded-md bg-pink-500 px-4 py-2 text-sm text-white">Button C</button></div>', '<button class="bg-blue-500 ...">Button A</button>\n<button class="bg-cyan-500 ...">Button B</button>\n<button class="bg-pink-500 ...">Button C</button>'),
     { t: 'h3', text: 'شفافیت' },
-    demo('<div class="flex gap-2"><div class="size-14 rounded bg-sky-500/100"></div><div class="size-14 rounded bg-sky-500/75"></div><div class="size-14 rounded bg-sky-500/50"></div><div class="size-14 rounded bg-sky-500/25"></div></div>', '<button class="bg-sky-500/100 ..."></button>\n<button class="bg-sky-500/75 ..."></button>\n<button class="bg-sky-500/50 ..."></button>'),
+    demo('<div class="flex gap-2"><div class="size-14 rounded-sm bg-sky-500/100"></div><div class="size-14 rounded-sm bg-sky-500/75"></div><div class="size-14 rounded-sm bg-sky-500/50"></div><div class="size-14 rounded-sm bg-sky-500/25"></div></div>', '<button class="bg-sky-500/100 ..."></button>\n<button class="bg-sky-500/75 ..."></button>\n<button class="bg-sky-500/50 ..."></button>'),
     { t: 'h3', text: 'مقدار دلخواه' },
     { t: 'code', text: '<div class="bg-[#50d71e] ...">...</div>\n<div class="bg-(--my-color) ...">...</div>', file: 'HTML' },
     rep('bg-sky-500'),
