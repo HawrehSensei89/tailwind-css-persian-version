@@ -4,11 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>مستندات Tailwind CSS به فارسی</title>
-  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <style type="text/tailwindcss">
     @custom-variant dark (&:where(.dark, .dark *));
-    @theme { --font-sans: "Vazirmatn", ui-sans-serif, system-ui, sans-serif; }
+    @theme {
+      /* لاتین با Inter و فارسی با وزیرمتن: هر حرفی که Inter نداشته باشد خودکار با وزیرمتن نمایش داده می‌شود */
+      --font-sans: "Inter", "Vazirmatn", ui-sans-serif, system-ui, sans-serif;
+      --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+    }
     .code-ltr { direction: ltr; text-align: left; }
     html { scroll-padding-top: 5rem; }
   </style>
@@ -69,6 +73,8 @@
   <script src="js/content-motion.js"></script>
   <script src="js/content-interactivity.js"></script>
   <script src="js/content-states.js"></script>
+  <script src="js/content-styling.js"></script>
+  <script src="js/content-responsive.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

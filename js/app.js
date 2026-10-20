@@ -79,6 +79,7 @@
       '<p class="mb-2 text-sm font-medium text-sky-600 dark:text-sky-400">' + esc(page.section) + '</p>' +
       '<h1 class="text-3xl font-bold ' + h + (isLatin(page.title) ? ' code-ltr' : '') + '">' + esc(doc && doc.heading || page.title) + '</h1>'
     if (doc && doc.lead) html += '<p class="mt-4 text-lg leading-8">' + inline(doc.lead) + '</p>'
+    html += '<p class="mt-4 text-sm"><a href="https://tailwindcss.com/docs/' + esc(slug) + '" target="_blank" rel="noopener" class="inline-flex items-center gap-1 rounded-lg bg-slate-100 px-3 py-1.5 text-slate-600 hover:text-sky-600 dark:bg-slate-800 dark:text-slate-300"><span>صفحه‌ی رسمی با جزئیات کامل (انگلیسی)</span><span aria-hidden="true">↗</span></a></p>'
     h2n = 0
     if (doc) {
       var heads = doc.blocks.filter(function (b) { return b.t === 'h2' })
